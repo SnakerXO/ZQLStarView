@@ -31,18 +31,14 @@ class ZQLStarView: UIView {
     
     var callback:starViewCallback?
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
-    
     required init?(coder aDecoder: NSCoder) {
-        fatalError()
+        fatalError("init(coder:) has not been implemented")
     }
     
-    init(frame:CGRect, emptyStarImage:UIImage, fillStarImage:UIImage, count:Int) {
+    init(frame:CGRect, emptyImage:UIImage, fillImage:UIImage, count:Int) {
         super.init(frame: frame)
-        self.emptyStarImage = emptyStarImage
-        self.fillStarImage = fillStarImage
+        self.emptyStarImage = emptyImage
+        self.fillStarImage = fillImage
         starCount = count
         
         self.fullStarView.frame = self.bounds
