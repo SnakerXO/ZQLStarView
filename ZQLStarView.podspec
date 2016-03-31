@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "ZQLStarView"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "A star view to give something a mark"
 
 # This description is used to generate tags and improve search results.
