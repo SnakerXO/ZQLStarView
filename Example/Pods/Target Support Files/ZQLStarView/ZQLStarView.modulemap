@@ -1,0 +1,6 @@
+framework module ZQLStarView {
+  umbrella header "ZQLStarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

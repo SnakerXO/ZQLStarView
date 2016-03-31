@@ -8,6 +8,7 @@
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Support Tap Gesture and LongPressGesture.
 
 ## Requirements
 
@@ -27,3 +28,6 @@ zangqilong, zangqilong@gmail.com
 ## License
 
 ZQLStarView is available under the MIT license. See the LICENSE file for more info.
+
+## Effect  
+![](http://7xi4jm.com1.z0.glb.clouddn.com/starview.gif)

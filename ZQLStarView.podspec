@@ -9,22 +9,21 @@
 Pod::Spec.new do |s|
   s.name             = "ZQLStarView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of ZQLStarView."
+  s.summary          = "A star view to give something a mark"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "A star view to give something a mark,hope you like it"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/ZQLStarView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/zangqilong198812/ZQLStarView"
+  s.screenshots     = "http://7xi4jm.com1.z0.glb.clouddn.com/starview.gif"
   s.license          = 'MIT'
   s.author           = { "zangqilong" => "zangqilong@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/ZQLStarView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/zangqilong198812/ZQLStarView.git", :tag => "0.0.1" }
+  s.social_media_url = 'http://weibo.com/1438670852/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true

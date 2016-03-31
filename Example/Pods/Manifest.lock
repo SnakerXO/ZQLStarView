@@ -1,0 +1,14 @@
+PODS:
+  - ZQLStarView (0.1.0)
+
+DEPENDENCIES:
+  - ZQLStarView (from `../`)
+
+EXTERNAL SOURCES:
+  ZQLStarView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ZQLStarView: 84c3f38b865a0ca1c650191621722dce1760be99
+
+COCOAPODS: 0.39.0
